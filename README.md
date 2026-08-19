@@ -9,7 +9,7 @@ This is a tool that helps you see the pattern — and fix it.
 ```
 
 ## About
-*DigiLife** is a Streamlit dashboard that visualizes your total time spent on a screen in a day, and uses that
+**DigiLife** is a Streamlit dashboard that visualizes your total time spent on a screen in a day, and uses that
 data to hand it to Gemini, which plays the role of a brutal-but-fair life
 coach: It doesn't just say "use your phone less" — it looks at what you
 actually did with your time and suggests real-world replacements.
