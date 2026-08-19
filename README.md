@@ -3,24 +3,26 @@
 $ whoami
 A wellbeing dashboard, not a guilt machine
 
-$ cat mission.txt
+$ mission.txt
 Digital addiction is a modern epidemic.
-This is a tool that helps you see the pattern — and fix it.
+This is a tool that helps you see the problem— and fix it.
 ```
 
-## About
+## About ℹ️
 **DigiLife** is a Streamlit dashboard that visualizes your total time spent on a screen in a day, and uses that
 data to hand it to Gemini, which plays the role of a brutal-but-fair life
 coach: It doesn't just say "use your phone less" — it looks at what you
 actually did with your time and suggests real-world replacements.
 
-## Demo Video
+**Link to web app:** https://digilife.streamlit.app/
+
+## Demo Video 🎬
 
 
 https://github.com/user-attachments/assets/0e8a77a6-480e-4f2f-8f13-a1b2e801c7e3
 
 
-## Stack
+## Stack 🛠️
 
 ```
 Frontend   : streamlit
@@ -29,7 +31,7 @@ AI Model   : google-genai (Gemini 2.5 Flash)
 Secrets    : python-dotenv
 ```
 
-## How to run it locally
+## How to run it locally 🖥️
 
 ```bash
 $ git clone <this-repo-url>
@@ -40,7 +42,7 @@ $ cp .env        # then paste in your GEMINI_API_KEY
 $ streamlit run main_app.py
 ```
 
-## Features
+## Features ✨
 
 ```
 [x] A sidebar, with a daily screen time limit slider, and a button to upload user screen time data as a CSV file.
@@ -53,7 +55,7 @@ to improve overall digital wellbeing, and how to effectively and productively ut
 [x] Shareable Accountability link via st.query_params
 ```
 
-## Project Structure
+## Project Architecture 🏗️
 
 ```
 digilife/
@@ -62,7 +64,7 @@ digilife/
 └── requirements.txt
 ```
 
-## Deploy
+## Deploy ⏯️
 
 Pushed to Streamlit Community Cloud. Set `API_KEY` under
 **App settings → Secrets** as:
@@ -73,3 +75,6 @@ GEMINI_API_KEY = "your_key_here"
 
 ---
 
+## License
+
+This project was built as a part of the Mirai School of Technology AI Virtual Summer Internship 2026.
