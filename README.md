@@ -38,7 +38,10 @@ $ streamlit run main_app.py
 
 ```
 [x] A sidebar, with a daily screen time limit slider, and a button to upload user screen time data as a CSV file.
-[x] All essential screen time stats, to help the user reflect on how much time they're actually spending in front of a screen (Total screen time, average time spent per app, most and least used apps and top category of apps) + An app-wise bar graph depicting time spent of each app + A donut-like pie graph to help the user understand their total screen time breakdown app by app + A threshold indicator, displaying by how many minutes the user has exceeded the daily screen time limit set by them, if they have so.
+[x] All essential screen time stats, to help the user reflect on how much time they're actually spending in front of a screen
+(Total screen time, average time spent per app, most and least used apps and top category of apps)
++ An app-wise bar graph depicting time spent of each app + A donut-like pie graph to help the user understand their total screen time breakdown app by app
++ A threshold indicator, displaying by how many minutes the user has exceeded the daily screen time limit set by them, if they have so.
 [x] AI Insights: All user screen time data is taken into account by Gemini, scrutinizes and provides various tips and suggestions to improve overall digital wellbeing, and how to effectively and productively utilize screen time.
 [x] Shareable Accountability link via st.query_params
 ```
