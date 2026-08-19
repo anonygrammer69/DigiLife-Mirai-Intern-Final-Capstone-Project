@@ -77,4 +77,4 @@ GEMINI_API_KEY = "your_key_here"
 
 ## License
 
-This project was built as a part of the Mirai School of Technology AI Virtual Summer Internship 2026.
+This project was built as a part of the Mirai School of Technology AI Summer Internship 2026.
