@@ -1,4 +1,4 @@
-# DigiLife 📱: The AI-powered Digital Wellbeing Mentor
+# DigiLife📱: The AI-powered Digital Wellbeing Mentor
 ```
 $ whoami
 A wellbeing dashboard, not a guilt machine
@@ -38,7 +38,7 @@ $ git clone <this-repo-url>
 $ cd digilife
 $ python -m venv venv && source venv/bin/activate
 $ pip install -r requirements.txt
-$ cp .env        # then paste in your GEMINI_API_KEY
+$ cp .env        # then paste in your API_KEY
 $ streamlit run main_app.py
 ```
 
