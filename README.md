@@ -21,10 +21,10 @@ actually did with your time and suggests real-world replacements.
 ## Stack
 
 ```
-frontend   : streamlit
-data       : pandas + screentime.csv (synthetic)
-ai         : google-genai (Gemini 2.5 Flash)
-secrets    : python-dotenv
+Frontend   : streamlit
+Data       : pandas 
+AI Model   : google-genai (Gemini 2.5 Flash)
+Secrets    : python-dotenv
 ```
 
 ## How to run it locally
@@ -54,10 +54,10 @@ to improve overall digital wellbeing, and how to effectively and productively ut
 ## Project Structure
 
 ```
-life-os/
-├── app.py              # main streamlit app
-├── requirements.txt
-└── README.md
+digilife/
+├── main_app.py              # main streamlit app
+├── README.md
+└── requirements.txt
 ```
 
 ## Deploy
