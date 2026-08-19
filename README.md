@@ -17,6 +17,8 @@ actually did with your time and suggests real-world replacements.
 ## Demo Video
 
 
+https://github.com/user-attachments/assets/0e8a77a6-480e-4f2f-8f13-a1b2e801c7e3
+
 
 ## Stack
 
